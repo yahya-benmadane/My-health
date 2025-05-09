@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="DuplicateDefinition">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+        <color name="primary_color">#FF5722</color>
+        <color name="primary_dark_color">#E64A19</color>
+
+        <color name="card_background">#1E1E1E</color>
+        <color name="snackbar_background">#323232</color>
+
+</resources>

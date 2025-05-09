@@ -1,0 +1,7 @@
+<!-- bg_input_field.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#00000000" /> <!-- fond transparent -->
+    <stroke android:width="2dp" android:color="#FFFFFF" /> <!-- bordure blanche -->
+    <corners android:radius="10dp" />
+    <padding android:left="12dp" android:right="12dp" />
+</shape>

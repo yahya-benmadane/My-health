@@ -1,0 +1,278 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:ignore="ExtraText">
+
+    <!-- Contenu scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="68dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:fillViewport="true"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- === Coach 1 === -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#1E1E1E"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:elevation="8dp"
+                android:backgroundTint="#2C2C2C">
+
+                <ImageView
+                    android:id="@+id/coach1Img"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/adib" />
+
+                <TextView
+                    android:id="@+id/coach1Name"
+                    style="@style/CoachTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Coach Adib" />
+
+                <!-- Email -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_email"
+                        android:layout_marginEnd="8dp"/>
+                    <TextView
+                        android:id="@+id/coach1Email"
+                        style="@style/CoachText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="adibsebbata@email.com" />
+                </LinearLayout>
+
+                <!-- Téléphone -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_phone"
+                        android:layout_marginEnd="8dp"/>
+                    <TextView
+                        android:id="@+id/coach1Phone"
+                        style="@style/CoachText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+212612345678" />
+                </LinearLayout>
+
+                <!-- Instagram -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_instagram"
+                        android:layout_marginEnd="8dp"/>
+                    <TextView
+                        android:id="@+id/coach1Insta"
+                        style="@style/CoachLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="https://www.instagram.com/adib.seb/" />
+                </LinearLayout>
+
+                <!-- Facebook -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_facebook"
+                        android:layout_marginEnd="8dp"/>
+                    <TextView
+                        android:id="@+id/coach1Fb"
+                        style="@style/CoachLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="https://www.facebook.com/adib.sebbata?locale=fr_FR" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/coach1Price"
+                    style="@style/CoachText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Prix : 300 MAD/mois" />
+
+                <Button
+                    android:id="@+id/contactCoach1Btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Contacter ce coach"
+                    android:backgroundTint="#039016"
+                    android:textColor="#FFF" />
+            </LinearLayout>
+
+            <!-- === Coach 2 === -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#1E1E1E"
+                android:padding="16dp"
+                android:elevation="8dp"
+                android:backgroundTint="#2C2C2C">
+
+                <ImageView
+                    android:id="@+id/coach2Img"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/anass" />
+
+                <TextView
+                    android:id="@+id/coach2Name"
+                    style="@style/CoachTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Coach Anass" />
+
+                <!-- Email -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_email"
+                        android:layout_marginEnd="8dp"/>
+                    <TextView
+                        android:id="@+id/coach2Email"
+                        style="@style/CoachText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Anassessayah85@gmail.com" />
+                </LinearLayout>
+
+                <!-- Téléphone -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_phone"
+                        android:layout_marginEnd="8dp"/>
+                    <TextView
+                        android:id="@+id/coach2Phone"
+                        style="@style/CoachText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+212687654321" />
+                </LinearLayout>
+
+                <!-- Instagram -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_instagram"
+                        android:layout_marginEnd="8dp"/>
+                    <TextView
+                        android:id="@+id/coach2Insta"
+                        style="@style/CoachLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="https://www.instagram.com/anasss_syh/" />
+                </LinearLayout>
+
+                <!-- Facebook -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_facebook"
+                        android:layout_marginEnd="8dp"/>
+                    <TextView
+                        android:id="@+id/coach2Fb"
+                        style="@style/CoachLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="https://www.facebook.com/anass.el.395891?locale=fr_FR" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/coach2Price"
+                    style="@style/CoachText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Prix : 250 MAD/mois" />
+
+                <Button
+                    android:id="@+id/contactCoach2Btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Contacter ce coach"
+                    android:backgroundTint="#039016"
+                    android:textColor="#FFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bouton Retour flottant -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Retour"
+        android:drawableStart="@drawable/ic_back"
+        android:backgroundTint="#FF1313"
+        android:textColor="@android:color/white"
+        android:elevation="24dp"
+        android:padding="12dp"/>
+</FrameLayout>

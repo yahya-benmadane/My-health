@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Health</string>
+    <string name="login">Se connecter</string>
+    <string name="signup">S \' inscrire</string>
+    <string name="username_hint">Nom d \'utilisateur</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="no_account">Pas de compte ? Créez un compte</string>
+    <string name="logo_desc">Logo de l\'application</string>
+    <string name="register">S\'inscrire</string>
+    <string name="already_account">Déjà un compte ? Connectez-vous</string>
+    <string-array name="gender_array">
+        <item>Homme</item>
+        <item>Femme</item>
+    </string-array>
+
+    <string-array name="activity_array">
+        <item>Sédentaire</item>
+        <item>Légère</item>
+        <item>Modérée</item>
+        <item>Intense</item>
+
+
+    </string-array>
+    <string-array name="muscles_array">
+        <item>Poitrine</item>
+        <item>Dos</item>
+        <item>Jambes</item>
+        <item>Épaules</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+    </string-array>
+
+</resources>
